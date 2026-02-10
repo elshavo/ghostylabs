@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import trackerWhite from "@/assets/tracker-white.png";
 
 const Hero = () => {
   const scrollToSection = (href: string) => {
@@ -47,7 +46,7 @@ const Hero = () => {
             >
               Más estables, pequeños y con batería de hasta 30 horas.
               <br />
-              <span className="font-semibold text-foreground">Listos para enviarse.</span>
+              <span className="font-semibold text-foreground">Ghosty Trackers by Ghosty Labs — Listos para enviarse.</span>
             </motion.p>
 
             <motion.p
@@ -83,29 +82,32 @@ const Hero = () => {
             </motion.div>
           </motion.div>
 
-          {/* Image */}
+          {/* 3D Model */}
           <motion.div
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8, delay: 0.3 }}
             className="relative flex justify-center"
           >
-            <div className="relative">
+            <div className="relative w-full max-w-md lg:max-w-lg">
               {/* Glow effect */}
               <div className="absolute inset-0 bg-accent/30 rounded-full blur-3xl scale-75" />
               
-              <motion.img
-                src={trackerWhite}
-                alt="Ghosty Tracker"
-                className="relative z-10 w-64 md:w-80 lg:w-96 drop-shadow-2xl"
-                animate={{
-                  y: [0, -15, 0],
-                }}
-                transition={{
-                  duration: 3,
-                  repeat: Infinity,
-                  ease: "easeInOut",
-                }}
+              {/* @ts-ignore */}
+              <model-viewer
+                src="/3dTracker.glb"
+                alt="Ghosty Tracker 3D"
+                auto-rotate
+                camera-controls
+                shadow-intensity="1"
+                style={{
+                  width: "100%",
+                  height: "450px",
+                  backgroundColor: "transparent",
+                  "--poster-color": "transparent",
+                } as React.CSSProperties}
+                environment-image="neutral"
+                exposure="1.1"
               />
             </div>
           </motion.div>

@@ -48,9 +48,9 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <a href="#" className="flex items-center gap-2">
-            <img src={ghostyLogo} alt="Ghosty Trackers" className="h-10 w-auto" />
+            <img src={ghostyLogo} alt="Ghosty Labs" className="h-10 w-auto" />
             <span className="font-bold text-lg hidden sm:block text-foreground">
-              Ghosty Trackers
+              Ghosty Labs
             </span>
           </a>
 
@@ -87,8 +87,8 @@ const Navbar = () => {
             <SheetContent side="right" className="w-[300px] bg-background">
               <div className="flex flex-col gap-6 mt-8">
                 <div className="flex items-center gap-2 mb-4">
-                  <img src={ghostyLogo} alt="Ghosty Trackers" className="h-8 w-auto" />
-                  <span className="font-bold text-foreground">Ghosty Trackers</span>
+                  <img src={ghostyLogo} alt="Ghosty Labs" className="h-8 w-auto" />
+                  <span className="font-bold text-foreground">Ghosty Labs</span>
                 </div>
                 {navLinks.map((link) => (
                   <button

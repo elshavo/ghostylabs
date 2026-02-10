@@ -32,7 +32,7 @@ const Community = () => {
           </motion.div>
 
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
-            Únete a la comunidad <span className="text-gradient">Ghosty</span>
+            Únete a la comunidad <span className="text-gradient">Ghosty Labs</span>
           </h2>
           <p className="text-muted-foreground text-lg mb-10">
             Síguenos para soporte, updates y contenido exclusivo.

@@ -14,14 +14,14 @@ const Footer = () => {
         <div className="flex flex-col items-center gap-6">
           {/* Logo */}
           <div className="flex items-center gap-2">
-            <img src={ghostyLogo} alt="Ghosty Trackers" className="h-8 w-auto" />
-            <span className="font-bold text-foreground">Ghosty Trackers</span>
+            <img src={ghostyLogo} alt="Ghosty Labs" className="h-8 w-auto" />
+            <span className="font-bold text-foreground">Ghosty Labs</span>
           </div>
 
           {/* Copyright */}
           <div className="text-center">
             <p className="text-muted-foreground text-sm">
-              © {new Date().getFullYear()} Ghosty Trackers — Hecho para VR
+              © {new Date().getFullYear()} Ghosty Labs — Hecho para VR
             </p>
             <p className="text-muted-foreground/60 text-xs mt-1 italic">
               by elshavo

@@ -57,7 +57,7 @@ const FAQ = () => {
             Preguntas <span className="text-gradient">frecuentes</span>
           </h2>
           <p className="text-muted-foreground text-lg">
-            Resolvemos tus dudas sobre los Ghosty Trackers
+            Resolvemos tus dudas sobre los Ghosty Trackers by Ghosty Labs
           </p>
         </motion.div>
 

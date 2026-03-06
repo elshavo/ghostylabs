@@ -46,7 +46,7 @@ const Community = () => {
                 className="w-full sm:w-auto bg-gradient-to-r from-pink-500 to-purple-500 hover:from-pink-600 hover:to-purple-600 text-white font-semibold px-8 py-6 text-lg rounded-2xl shadow-ghosty-md hover:shadow-glow transition-all duration-300"
               >
                 <a
-                  href="https://www.instagram.com/ghostytrackers"
+                  href="https://www.instagram.com/ghostylabs.vr"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-3"
